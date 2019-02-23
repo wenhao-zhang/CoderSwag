@@ -1,6 +1,7 @@
 package com.wenhao.coderswag.Adapters
 
 import android.content.Context
+import android.media.Image
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,16 +17,31 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
     val categories = categories
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        val categoryView: View = LayoutInflater.from(context).inflate(R.layout.category_list_item, null)
-        val categoryImage : ImageView = categoryView.findViewById(R.id.categoryImage)
-        val categoryName : TextView = categoryView.findViewById(R.id.categoryName)
+        val categoryView: View
+        val holder: ViewHolder
+
+        if (convertView == null){
+            categoryView = LayoutInflater.from(context).inflate(R.layout.category_list_item, null)
+
+            holder = ViewHolder()
+
+            holder.categoryImage = categoryView.findViewById(R.id.categoryImage)
+            holder.categoryName = categoryView.findViewById(R.id.categoryName)
+
+            categoryView.tag = holder
+        }else{
+            holder = convertView.tag as ViewHolder
+            categoryView = convertView
+        }
+
+
 
         val category = categories[position]
 
         val resourceID = context.resources.getIdentifier(category.image, "drawable", context.packageName)
-        categoryImage.setImageResource(resourceID)
+        holder.categoryImage?.setImageResource(resourceID)
 
-        categoryName.text = category.title
+        holder.categoryName?.text = category.title
 
         return categoryView
     }
@@ -42,5 +58,8 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
         return categories.count()
     }
 
-
+    private class ViewHolder{
+        var categoryImage: ImageView? = null
+        var categoryName: TextView? = null
+    }
 }
