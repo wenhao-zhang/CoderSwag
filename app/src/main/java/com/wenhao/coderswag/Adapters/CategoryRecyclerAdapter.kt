@@ -23,7 +23,7 @@ class CategoryRecyclerAdapter(val context: Context, val categories: List<Categor
     }
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
-        holder?.bindCategory(categories[position], context)
+        holder.bindCategory(categories[position], context)
     }
 
     inner class Holder(itemView: View, val itemClick: (Category) -> Unit) : RecyclerView.ViewHolder(itemView) {
