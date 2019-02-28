@@ -35,7 +35,7 @@ class CategoryRecyclerAdapter(val context: Context, val categories: List<Categor
             val resourceId = context.resources.getIdentifier(category.image, "drawable", context.packageName)
             this.categoryImage?.setImageResource(resourceId)
             this.categoryName?.text = category.title
-            itemView.setOnClickListener{itemClick(category)}
+            this.itemView.setOnClickListener{itemClick(category)}
         }
     }
 }

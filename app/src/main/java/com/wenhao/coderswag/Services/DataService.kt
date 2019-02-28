@@ -13,51 +13,50 @@ object DataService {
     )
 
     val hats = listOf(
-        Product("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product("Devslopes Hat Black", "$20", "hat2"),
-        Product("Devslopes Hat White", "$20", "hat3"),
-        Product("Devslopes Hat Snapback", "$22", "hat4"),
-        Product("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product("Devslopes Hat Black", "$20", "hat2"),
-        Product("Devslopes Hat White", "$20", "hat3"),
-        Product("Devslopes Hat Snapback", "$22", "hat4"),
-        Product("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product("Devslopes Hat Black", "$20", "hat2"),
-        Product("Devslopes Hat White", "$20", "hat3"),
-        Product("Devslopes Hat Snapback", "$22", "hat4")
+        Product("Devslopes Graphic Beanie", "$18", "hat1", "Beanie with Devslope logo"),
+        Product("Devslopes Hat Black", "$20", "hat2", "A black hat"),
+        Product("Devslopes Hat White", "$20", "hat3", "A white hat"),
+        Product("Devslopes Hat Snapback", "$22", "hat4", "A snapback"),
+        Product("Devslopes Graphic Beanie", "$18", "hat1", "Beanie with Devslope logo"),
+        Product("Devslopes Hat Black", "$20", "hat2", "A black hat"),
+        Product("Devslopes Hat White", "$20", "hat3", "A white hat"),
+        Product("Devslopes Hat Snapback", "$22", "hat4", "A snapback"),
+        Product("Devslopes Graphic Beanie", "$18", "hat1", "Beanie with Devslope logo"),
+        Product("Devslopes Hat Black", "$20", "hat2", "A black hat"),
+        Product("Devslopes Hat White", "$20", "hat3", "A white hat"),
+        Product("Devslopes Hat Snapback", "$22", "hat4", "A snapback")
     )
 
     val hoodies = listOf(
-        Product("Devslopes Hoodie Gray","$28","hoodie1"),
-        Product("Devslopes Hoodie Red","$32","hoodie2"),
-        Product("Devslopes Gray Hoodie","$28","hoodie3"),
-        Product("Devslopes Black Hoodie","$32","hoodie4"),
-        Product("Devslopes Hoodie Gray","$28","hoodie1"),
-        Product("Devslopes Hoodie Red","$32","hoodie2"),
-        Product("Devslopes Gray Hoodie","$28","hoodie3"),
-        Product("Devslopes Black Hoodie","$32","hoodie4"),
-        Product("Devslopes Hoodie Gray","$28","hoodie1"),
-        Product("Devslopes Hoodie Red","$32","hoodie2"),
-        Product("Devslopes Gray Hoodie","$28","hoodie3"),
-        Product("Devslopes Black Hoodie","$32","hoodie4")
+        Product("Devslopes Hoodie Gray","$28","hoodie1", "Gray hoodie with Devslopes logo"),
+        Product("Devslopes Hoodie Red","$32","hoodie2", "Red hoodie with Devslopes logo"),
+        Product("Devslopes Gray Hoodie","$28","hoodie3", "Gray hoodie"),
+        Product("Devslopes Black Hoodie","$32","hoodie4", "Black hoodie with Devslopes logo"),
+        Product("Devslopes Hoodie Gray","$28","hoodie1", "Gray hoodie with Devslopes logo"),
+        Product("Devslopes Hoodie Red","$32","hoodie2", "Red hoodie with Devslopes logo"),
+        Product("Devslopes Gray Hoodie","$28","hoodie3", "Gray hoodie"),
+        Product("Devslopes Black Hoodie","$32","hoodie4", "Black hoodie with Devslopes logo"),
+        Product("Devslopes Hoodie Gray","$28","hoodie1", "Gray hoodie with Devslopes logo"),
+        Product("Devslopes Hoodie Red","$32","hoodie2", "Red hoodie with Devslopes logo"),
+        Product("Devslopes Gray Hoodie","$28","hoodie3", "Gray hoodie"),
+        Product("Devslopes Black Hoodie","$32","hoodie4", "Black hoodie with Devslopes logo")
     )
 
     val shirts = listOf(
-        Product("Devslopes Shirt Black","$18","shirt1"),
-        Product("Devslopes Badge Light Gray","$20","shirt2"),
-        Product("Devslopes Logo Shirt Red","$22","shirt3"),
-        Product("Devslopes Hustle","$22","shirt4"),
-        Product("Kickflip Studios","$18","shirt5"),
-        Product("Devslopes Shirt Black","$18","shirt1"),
-        Product("Devslopes Badge Light Gray","$20","shirt2"),
-        Product("Devslopes Logo Shirt Red","$22","shirt3"),
-        Product("Devslopes Hustle","$22","shirt4"),
-        Product("Kickflip Studios","$18","shirt5"),
-        Product("Devslopes Shirt Black","$18","shirt1"),
-        Product("Devslopes Badge Light Gray","$20","shirt2"),
-        Product("Devslopes Logo Shirt Red","$22","shirt3"),
-        Product("Devslopes Hustle","$22","shirt4"),
-        Product("Kickflip Studios","$18","shirt5")
+        Product("Devslopes Shirt Black","$18","shirt1", "Black shirt with Deveslopes logo"),
+        Product("Devslopes Badge Light Gray","$20","shirt2", "Badge light gray shirt with Deveslopes logo"),
+        Product("Devslopes Logo Shirt Red","$22","shirt3","Red shirt with Deveslopes logo"),
+        Product("Devslopes Hustle","$22","shirt4", "Hustle shirt with Deveslopes logo"),
+        Product("Kickflip Studios","$18","shirt5","Kickflip studios shirt with Deveslopes logo"),
+        Product("Devslopes Shirt Black","$18","shirt1", "Black shirt with Deveslopes logo"),
+        Product("Devslopes Badge Light Gray","$20","shirt2", "Badge light gray shirt with Deveslopes logo"),
+        Product("Devslopes Logo Shirt Red","$22","shirt3","Red shirt with Deveslopes logo"),
+        Product("Devslopes Hustle","$22","shirt4", "Hustle shirt with Deveslopes logo"),
+        Product("Kickflip Studios","$18","shirt5","Kickflip studios shirt with Deveslopes logo"),        Product("Devslopes Shirt Black","$18","shirt1", "Black shirt with Deveslopes logo"),
+        Product("Devslopes Badge Light Gray","$20","shirt2", "Badge light gray shirt with Deveslopes logo"),
+        Product("Devslopes Logo Shirt Red","$22","shirt3","Red shirt with Deveslopes logo"),
+        Product("Devslopes Hustle","$22","shirt4", "Hustle shirt with Deveslopes logo"),
+        Product("Kickflip Studios","$18","shirt5","Kickflip studios shirt with Deveslopes logo")
     )
 
     val digitalGood = listOf<Product>()
